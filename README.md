@@ -1,1 +1,7 @@
-# Project---Template
+Template List
+
+HTML
+- Vanilla
+
+CSS
+- Vanilla 
