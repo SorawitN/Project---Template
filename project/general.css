@@ -1,0 +1,92 @@
+.text-white {
+    color: white;
+}
+
+.text-darkgrey {
+    color: rgb(73, 73, 73);
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-ocean {
+    color: rgb(0, 214, 221);
+}
+
+.text-blue {
+    color: royalblue;
+}
+
+.text-darkblue {
+    color: rgb(0, 0, 105);
+}
+
+.spacing {
+    margin-top: 2px;
+}
+
+.spacing-top {
+    margin-top: 20px;
+}
+
+.text-yellow {
+    color: rgb(224, 191, 0);
+}
+
+.compress-x-sm {
+    margin-left: 8.33%;
+    margin-right: 8.33%;
+}
+
+.compress-x-md {
+    margin-left: 16.66%;
+    margin-right: 16.66%;
+}
+
+.compress-x-xl {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.compress-y-sm {
+    margin-top: 14.28%;
+    margin-bottom: 14.28%;
+}
+
+.compress-y-md {
+    margin-top: 28.57%;
+    margin-bottom: 28.57%;
+}
+
+.compress-y-xl {
+    margin-top: 42.85%;
+    margin-bottom: 42.85%;
+}
+
+.box-align-center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+
+
+.text-align-center {
+    text-align: center;
+}
+
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+  }
+
+
+  .button-align-center {
+    margin: 0;
+    top: 50%;
+    left: 50%;
+  }

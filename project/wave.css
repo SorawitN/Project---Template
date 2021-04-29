@@ -1,0 +1,87 @@
+
+
+.box {
+    margin: 5px 5px 5px 5px;
+} 
+
+.rbox {
+    margin: 5px 5px 5px 5px;
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.gbox {
+    margin: 5px 5px 5px 5px;
+    border-color: green;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.bbox {
+    margin: 5px 5px 5px 5px;
+    border-color: blue;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.banner {
+    position: absolute;
+    background-image: url("Banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50rem;
+    z-index: 3;
+    width: 100%;
+
+}
+
+.banner-text {
+    
+}
+
+.banner-title {
+    position: relative;
+    align-self: center;
+    color: white;
+    font-weight: bold;
+}
+
+.banner-desc {
+    position: relative;
+    color: white;
+}
+
+.desc {
+    z-index: 2;
+}
+
+.desc-pic {
+    position: relative;
+    background-image: url(Shape1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 30rem;
+    background-color: white;
+    z-index: 2;
+
+}
+
+.desc-text {
+    position: relative;
+    margin:10px 30px 10px 30px;
+    z-index: 2;
+}
+
+.blank {
+    height: 50rem;
+}
+
+.service {
+    position: relative;
+    top: 5rem;
+
+}
+
+
