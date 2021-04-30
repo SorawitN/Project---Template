@@ -1,3 +1,42 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.box {
+    margin: 5px 5px 5px 5px;
+} 
+
+.rbox {
+    margin: 5px 5px 5px 5px;
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.gbox {
+    margin: 5px 5px 5px 5px;
+    border-color: green;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.bbox {
+    margin: 5px 5px 5px 5px;
+    border-color: blue;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.bsection {
+    background-color: cornflowerblue;
+    height: 50rem;
+}
+
+.ysection {
+    background-color: khaki;
+    height: 50rem;
+}
+
 .text-white {
     color: white;
 }
@@ -90,3 +129,4 @@
     top: 50%;
     left: 50%;
   }
+
