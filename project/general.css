@@ -4,7 +4,13 @@ html {
 
 .box {
     margin: 5px 5px 5px 5px;
-} 
+}
+
+.rbox-non {
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+}
 
 .rbox {
     margin: 5px 5px 5px 5px;
@@ -41,6 +47,10 @@ html {
     color: white;
 }
 
+.text-lightgrey {
+    color: rgb(231, 231, 231);
+}
+
 .text-darkgrey {
     color: rgb(73, 73, 73);
 }
@@ -73,6 +83,11 @@ html {
     color: rgb(224, 191, 0);
 }
 
+.compress-x-xs {
+    margin-left: 4.15%;
+    margin-right: 4.15%;
+}
+
 .compress-x-sm {
     margin-left: 8.33%;
     margin-right: 8.33%;
@@ -86,6 +101,11 @@ html {
 .compress-x-xl {
     margin-left: 25%;
     margin-right: 25%;
+}
+
+.compress-y-xs {
+    margin-top: 7.14%;
+    margin-bottom: 7.14%;
 }
 
 .compress-y-sm {
@@ -130,3 +150,26 @@ html {
     left: 50%;
   }
 
+.md-section {
+   height: 15%;
+}
+
+.text-xs {
+    font-size: smaller;
+}
+
+.text-sm {
+    font-size: small;
+}
+
+.text-lg {
+    font-size: large;
+}
+
+.text-xl {
+    font-size: x-large;
+}
+
+.text-xxl {
+    font-size: xx-large;
+}
