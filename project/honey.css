@@ -7,10 +7,25 @@ body {
     overflow-x: hidden;
 }
 
+
+
+#header-text-1 {
+    font-weight: lighter;
+    font-size: 56px;
+    
+}
+
+.header-text {
+    font-size: 37px;
+    line-height: 40px;
+    font-size: 36px;
+}
+
 .nav-item {
     margin-top: -20px;
     padding-top: 20px;
     font-weight: 500;
+    transition: background-color 0.4s ease;
 }
 
 .nav-item:hover {
@@ -27,13 +42,140 @@ body {
 
 .box-1 {
     background: linear-gradient(90deg, #75CDFF 0%, #9C76FF 100%);
-    height: 33px;
+    height: 45px;
+    width: 440px;
 }
 
 .box-2 {
     background-color: #F1F6F9;
-    height: 33px;
+    height: 45px;
+    width: 440px;
 }
+
+@media only screen and (max-width: 600px) {
+    .box-1 {
+        background: linear-gradient(90deg, #75CDFF 0%, #9C76FF 100%);
+        height: 33px;
+        width: 75%;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .box-2 {
+        background-color: #F1F6F9;
+        height: 33px;
+        width: 75%;
+    }
+}
+
+
+
+.responsive {
+    width: 100%;
+    height: 100%;
+  }
+
+#macbook {
+    transform: scale(1.2);
+}
+
+.local-button {
+    width: 170px;
+    height: 45px;
+    margin-right: 11px;
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.1);
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+#button1 {
+    background: linear-gradient(90deg, #80C8FB 0%, #5F71FA 100%);
+}
+
+#button2 {
+    background-color: #1D2087;
+}
+
+#rm {
+    visibility: visible;
+    transform: scale(0.8);
+}
+
+#rm-responsive {
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 992px) {
+    #rm {
+        visibility: hidden;
+        height: 0;
+        width: 0;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #rm-responsive {
+        visibility: visible;
+    }
+}
+
+
+.local-card {
+    background: #F7F8FC;
+}
+
+@media only screen and (max-width: 992px) {
+    .local-card {
+        background: #F7F8FC;
+    }
+}
+
+#card-list {
+    margin-top: 10.8vw;
+    margin-bottom: 10.8vw;
+}
+
+.name {
+    color: #7379F5;
+}
+
+#showplane {
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+@media only screen and (max-width: 992px) {
+    #showplane {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+#textbox {
+    position: relative;
+    width: 40%;
+    right: 250px;
+    color: white;
+}
+
+@media only screen and (max-width: 992px) {
+    #textbox {
+        position: relative;
+        left: 0px;
+        width: 100%;
+        margin-left: 40px;
+        margin-right: 40px;
+        color: rgb(53, 53, 53);
+    }
+}
+
+#history {
+    margin-top: 100px;
+}
+
+
 
 
 

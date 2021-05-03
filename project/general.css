@@ -1,3 +1,22 @@
+
+:root {
+    --border-red :red;
+    --border-green : green;
+    --border-blue : blue;
+    --border-orange : orange;
+    --border-purple : purple;
+}
+
+/*
+:root {
+    --border-red :rgba(255, 0, 0, 0);
+    --border-green : rgba(0, 128, 0, 0);
+    --border-blue : rgba(0, 0, 255, 0);
+    --border-orange : rgba(255, 166, 0, 0);
+    --border-purple : rgba(255, 166, 0, 0);
+}*/
+
+
 html {
     scroll-behavior: smooth;
 }
@@ -13,24 +32,48 @@ html {
 }
 
 .rbox {
-    margin: 5px 5px 5px 5px;
-    border-color: red;
+    margin: 1px 1px 1px 1px;
+    border-color: var(--border-red);
     border-width: 2px;
     border-style: solid;
 }
 
 .gbox {
-    margin: 5px 5px 5px 5px;
-    border-color: green;
+    margin: 1px 1px 1px 1px;
+    border-color: var(--border-green);
     border-width: 2px;
     border-style: solid;
 }
 
 .bbox {
-    margin: 5px 5px 5px 5px;
-    border-color: blue;
+    margin: 1px 1px 1px 1px;
+    border-color: var(--border-blue);
     border-width: 2px;
     border-style: solid;
+    width: fit-content;
+}
+
+.bbox-z {
+    border-color: var(--border-blue);
+    border-width: 2px;
+    border-style: solid;
+    width: fit-content;
+}
+
+.obox {
+    margin: 1px 1px 1px 1px;
+    border-color: var(--border-orange);
+    border-width: 2px;
+    border-style: solid;
+    width: fit-content;
+}
+
+.pbox {
+    margin: 1px 1px 1px 1px;
+    border-color: var(--border-purple);
+    border-width: 2px;
+    border-style: solid;
+    width: fit-content;
 }
 
 .bsection {
@@ -52,7 +95,7 @@ html {
 }
 
 .text-darkgrey {
-    color: rgb(73, 73, 73);
+    color: #939393;
 }
 
 .text-bold {
@@ -101,6 +144,11 @@ html {
 .compress-x-xl {
     margin-left: 25%;
     margin-right: 25%;
+}
+
+.compress-y-xss {
+    margin-top: 3.57%;
+    margin-bottom: 3.57%;
 }
 
 .compress-y-xs {
@@ -173,3 +221,25 @@ html {
 .text-xxl {
     font-size: xx-large;
 }
+
+.text-p {
+    font-size: 15px;
+}
+
+.text-button {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.text-darkbutton {
+    color: #33383B;
+}
+
+.text-17 {
+    font-size: 17px;
+}
+
+.text-bolder {
+    font-weight: bolder;
+}
+
